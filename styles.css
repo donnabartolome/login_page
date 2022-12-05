@@ -75,7 +75,7 @@ section {
 }
 
 .icon-wrapper {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .icon-wrapper img {
@@ -182,7 +182,7 @@ input[type=password]:focus {
 }
 
 .sign-up {
-    margin: 30px 0;
+    margin: 30px 0 0;
 }
 
 .carousel-wrapper {
@@ -272,6 +272,6 @@ input[type=password]:focus {
 
 @media (min-width: 992px) {
     .form-content {
-        padding: 15%;
+        padding: 40px;
     }
 }
