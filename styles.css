@@ -120,11 +120,18 @@ input[type=password]:focus {
 /* CUSTOM CHECKBOX */
 .custom-checkbox {
     display: inline-flex;
+    padding-left: 25px;
 }
 
 .custom-checkbox input[type=checkbox] {
 	outline: none;
-	content: none;	
+	content: none;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 0;
+    top: -1px;
 }
 
 .custom-checkbox input[type=checkbox]:before {
@@ -137,7 +144,6 @@ input[type=password]:focus {
     height: 18px;
     border: 2px solid rgb(228, 228, 240);
     border-radius: 3px;
-    margin-right: 5px;
 }
 
 .custom-checkbox input[type=checkbox]:checked:before {
