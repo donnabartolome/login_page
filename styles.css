@@ -123,9 +123,6 @@ input[type=password]:focus {
 }
 
 .custom-checkbox input[type=checkbox] {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-o-appearance: none;
 	outline: none;
 	content: none;	
 }
